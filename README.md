@@ -1,16 +1,16 @@
-Aplikasi Happy Birthday Menggunakan Bahasa Kotlin Menggunakan Android Studio
+## Aplikasi Happy Birthday Menggunakan Bahasa Kotlin Menggunakan Android Studio
 by : 
 Yasmin Putri 
 5025221273
 
-1. Membuat Proyek baru di Android Studio
+**1. Membuat Proyek baru di Android Studio**
 Buka Android Studio dan buat proyek baru.
 Pilih "Empty Compose Activity" sebagai template.
 Beri nama proyek (misalnya: HappyBirthday).
 Pilih bahasa "Kotlin" dan pastikan Minimum SDK adalah API 24 (Android 7.0) atau lebih tinggi.
 Klik Finish untuk membuat proyek.
 
-3. Mengatur Dependensi yang Dibutuhkan
+**2. Mengatur Dependensi yang Dibutuhkan**
 Sebelum mulai menulis kode, pastikan Jetpack Compose telah didukung dalam proyek dengan memeriksa file build.gradle (Module: app). Jika belum ada, tambahkan dependensi berikut di dalam blok dependencies:
 
 ```
@@ -21,7 +21,7 @@ dependencies {
 }
 ```
 
-3. Membuat dan Mengedit MainActivity.kt
+**3. Membuat dan Mengedit MainActivity.kt**
 Buka file MainActivity.kt yang berada dalam paket com.example.happybirthday, lalu hapus kode default yang ada. Gantilah dengan kode berikut:
 
 package com.example.happybirthday
@@ -70,7 +70,7 @@ fun BirthdayGreeting(name: String, from: String) {
     }
 }
 
-4. Menjalankan Aplikasi
+**4. Menjalankan Aplikasi**
 Setelah kode selesai ditulis, hubungkan perangkat Android atau jalankan Android Emulator. Klik tombol Run ▶ di Android Studio untuk mengeksekusi aplikasi. Jika berjalan dengan benar, layar akan menampilkan teks "Happy Birthday Yasmin!" dalam ukuran besar, serta teks "From Love" dalam warna merah. Dengan ini, aplikasi telah berhasil dibuat! 🎉
 
 ```
