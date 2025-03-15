@@ -23,7 +23,7 @@ dependencies {
 
 **3. Membuat dan Mengedit MainActivity.kt**
 Buka file MainActivity.kt yang berada dalam paket com.example.happybirthday, lalu hapus kode default yang ada. Gantilah dengan kode berikut:
-
+```
 package com.example.happybirthday
 
 import android.os.Bundle
@@ -69,7 +69,7 @@ fun BirthdayGreeting(name: String, from: String) {
         )
     }
 }
-
+```
 **4. Menjalankan Aplikasi**
 Setelah kode selesai ditulis, hubungkan perangkat Android atau jalankan Android Emulator. Klik tombol Run ▶ di Android Studio untuk mengeksekusi aplikasi. Jika berjalan dengan benar, layar akan menampilkan teks "Happy Birthday Yasmin!" dalam ukuran besar, serta teks "From Love" dalam warna merah. Dengan ini, aplikasi telah berhasil dibuat! 🎉
 
